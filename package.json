@@ -1,0 +1,39 @@
+{
+  "name": "twitter_clone",
+  "version": "1.0.0",
+  "description": "Twitter Clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uankit/twitter_clone.git"
+  },
+  "keywords": [
+    "twitter",
+    "clone",
+    "twitter_clone",
+    "Twitter",
+    "Clone",
+    "mern"
+  ],
+  "author": "Ankit Upadhyay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uankit/twitter_clone/issues"
+  },
+  "homepage": "https://github.com/uankit/twitter_clone#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.3.0",
+    "pug": "^3.0.2"
+  }
+}
